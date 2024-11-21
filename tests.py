@@ -1,5 +1,6 @@
 import unittest
 from main import emotions
+
 class emotionsTester(unittest.TestCase):
     def setUp(self):
         self.emotions = emotions()
