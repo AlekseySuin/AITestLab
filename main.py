@@ -1,6 +1,5 @@
 from transformers import pipeline
 
-
 class emotions():
     def __init__(self):
         pass
