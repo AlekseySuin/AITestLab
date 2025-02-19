@@ -20,3 +20,9 @@ def predict(item: Item):
  list = classifier(item.text)
  list = list[0]
  return list['label']
+
+@app.post("/another_predict/")
+def another_predict(item: Item):
+ list = classifier(item.text)
+ list = list[0]
+ return list['label']
